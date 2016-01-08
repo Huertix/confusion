@@ -78,6 +78,7 @@ body {
 
 .carousel {
     background:#1A237E;
+    z-index: 0;
 }
 .carousel .item {
   height: 300px;
@@ -87,4 +88,11 @@ body {
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButtons {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 10;
 }
